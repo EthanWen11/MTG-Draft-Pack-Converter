@@ -3,10 +3,10 @@ Simple Java script using regular expressions to convert randomly generated packs
 
 In order to facilitate online Draft play (and other niche formats requiring digital pack opening) with friends in ways that popular MTG clients do not, this script allows you to randomly generate digital packs on external pack randomizer software and then cleanly modifies the data into a form usable by TTS. 
 
-Uses the following export formula from [botbox.dev](https://botbox.dev/);
-  n CARDNAME SET #
-And converts to the following formula valid with [Oops I Baked A Pie's scripted MTG 4 player table](https://steamcommunity.com/sharedfiles/filedetails/?id=2296042369);
-  nx CARDNAME (set) #
+Uses the following export formula from [botbox.dev](https://botbox.dev/);<br>
+  n CARDNAME SET # <br>
+And converts to the following formula valid with [Oops I Baked A Pie's scripted MTG 4 player table](https://steamcommunity.com/sharedfiles/filedetails/?id=2296042369);<br>
+  nx CARDNAME (set) # <br>
 
 # Requirements
 Java 8 or newer
